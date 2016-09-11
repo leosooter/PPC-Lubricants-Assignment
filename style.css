@@ -1,0 +1,97 @@
+div, h2, h3, ul, li, a{
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+}
+body{
+  margin: 0 auto;
+  width: 1200px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+header{
+  background: linear-gradient(#F0F0F0, white);
+  border-bottom: 1px solid #b4c1ca;
+  padding-left: 30px;
+}
+h2{
+  margin: 25px 0 0 470px;
+}
+h3{
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #ffc533;
+}
+nav{
+  padding: 0 0 40px 0;
+  background: linear-gradient(#f0f3f4 15%, #d6dde2 1%, #f0f3f4 40%);
+}
+li{
+  min-width: 10px;
+  height: 20px;
+  margin-left: -4px;
+  border-left: 1px solid white;
+  border-right: 1px solid #b4c1ca;
+  padding: 8px 20px;
+  color: #666666;
+  font-size: 14px;
+}
+main{
+  background: radial-gradient(farthest-side at 55% 30%, #5b5b57, black, black);
+  padding: 20px 0 20px 30px;
+}
+#about-wrapper img{
+  border: 5px solid white;
+}
+#about-box{
+  width: 665px;
+  height: 310px;
+  margin-left: 20px;
+  background-color:rgba(225, 225, 225, 0.3);
+}
+#about-text{
+  padding: 0 20px;
+  color: white;
+}
+#delivery-notice{
+  color: #919966;
+}
+#delivery-notice img{
+  margin: 0 20px 0 20px;
+  border-radius: 0 10% 10% 0;
+}
+.service-box{
+  width: 265px;
+  height: 320px;
+  margin-right: 20px;
+  border: 2px solid #222222;
+  background-color: white;
+}
+.service-box p{
+  margin: 10px 15px;
+}
+.read-more, .arrow{
+  height: 18px;
+  border: 3px solid black;
+  background-color: #ffc533;
+}
+.read-more{
+  width: 90px;
+  margin: 30px 0 0 120px;
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 5px 5px 5px 5px;
+  overflow: visible;;
+}
+.arrow{
+  position: absolute;
+  width: 18px;
+  border-bottom: none;
+  border-left: none;
+  transform: rotate(45deg);
+  margin: -1px 0 0 7px;
+}
